@@ -1,4 +1,4 @@
 # Mock Blog Website
 Some of My Personal Projects
 <br>
-![](/readme/Mock Blog Phone cropped.gif) 
+![](/gif/MockBlog_Phone.gif) 
