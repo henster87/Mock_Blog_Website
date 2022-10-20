@@ -8,15 +8,15 @@ Here are some of its features:
  
 <br>
 
-Desktop View:
+Desktop View: <br>
 <img src='/gifs/MockBlog_Desktop.gif' height='200px'/>
 
 <br>
 
-Tablet View:
+Tablet View: <br>
 <img src='/gifs/MockBlog_Tablet.gif' height='200px'/>
 
 <br>
 
-Phone View:
+Phone View: <br>
 <img src='/gifs/MockBlog_Phone.gif' height='200px'/>
