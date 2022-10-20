@@ -1,4 +1,4 @@
-# <p style='color : red'>Mock Blog Website</p>
+<h1 style='color : red'>Mock Blog Website</h1>
 I made a website for my application to an apprenticeship.
 Here are some of its features:
 - Fully responsive
