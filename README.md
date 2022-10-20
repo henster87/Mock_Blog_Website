@@ -1,3 +1,3 @@
 # Mock Blog Website
 Some of My Personal Projects
-![](https://imgur.com/sfwwP6b)
+<img src='https://imgur.com/sfwwP6b'>
