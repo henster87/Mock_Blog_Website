@@ -1,2 +1,2 @@
-# Mock_Blog_Website
+# Mock Blog Website
 Some of My Personal Projects
