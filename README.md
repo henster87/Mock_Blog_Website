@@ -1,4 +1,4 @@
-# Mock Blog Website
+# <font style='color : red'>Mock Blog Website</font>
 I made a website for my application to an apprenticeship.
 Here are some of its features:
 - Fully responsive
