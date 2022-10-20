@@ -1,10 +1,10 @@
-## <h1 style='color : red;'>Mock Blog Website</h1>
-I made a website for my application to an apprenticeship.
-Here are some of its features:
-- Fully responsive
-- Navigation bar
-- Image Carousel
-- Working Email Form thanks to 'emailjs' service
+# Mock Blog Website
+I made a 'fake' website for my application to an apprenticeship as a JavaScript React Developer. <br>
+Here are some of its features: <br>
+✅ Fully responsive <br>
+✅ Navigation bar <br>
+✅ Image Carousel <br>
+✅ Working Email Form thanks to 'emailjs' service
  
 <br>
 
@@ -16,3 +16,6 @@ Tablet View: <br>
 
 Phone View: <br>
 <img src='/gifs/MockBlog_Phone.gif' height='200px'/>
+
+I really enjoyed making this project and found it to be very fun, even when I ran into some errors. <br>
+As for as projects like these go, I am eager to make more of them.
