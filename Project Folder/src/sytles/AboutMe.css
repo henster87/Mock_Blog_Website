@@ -1,0 +1,176 @@
+/* AboutMe <section> */
+.aboutMePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    height: 100%;
+
+}
+
+.myPhoto {
+ 
+    width: max(12rem, 22vw);
+    max-width: 24rem;
+    border-radius: 100%;
+    border: 10px solid var(--accentColor);
+    margin-bottom: 2rem;
+}
+
+
+/*===== ABOUT ME====*/
+
+.title {
+    background-color: var(--accentColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+}
+
+/* Name, age and description */
+.textSection {
+    background-color: var(--primary);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.5rem;
+    max-width: 45rem;
+}
+
+/* Name and age */
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-style: bold;
+}
+
+.age {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Description */
+.textSection p {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    word-spacing: 0rem;
+    margin-bottom: 2rem;
+}
+
+.textSection em {
+    font-size: 1.2rem;
+}
+
+.textSection strong {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+/* First line of the description */
+.intro {
+    font-weight: 600;
+}
+
+
+/*===== CONTACT ME====*/
+
+form {
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    max-width: 45rem;
+    max-height: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+
+    margin-bottom: 2rem;
+}
+
+form div label {
+    margin-right: 0.3rem;
+    text-decoration: underline;
+}
+
+.userMessage {
+    position: relative;
+    right: 0.4rem;
+}
+
+.sendButton{
+    background-color: var(--accentColor);
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    outline: 2px solid var(--secondary);
+}
+
+.sendButton input {
+    background-color: var(--accentColor);
+    color: var(--textColor);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 640px){
+
+    .textSection p {
+        text-align:left
+    }
+
+    form {
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* label + input */
+    .formDiv {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem
+
+    }
+
+    form input {
+        height: 1.5rem;
+    }
+
+    .userMessage {
+        right: 0;
+    }
+    
+    textarea {
+        right: 0;
+        height: 3rem;
+    }
+
+    
+    
+    
+    
+}

@@ -1,0 +1,14 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap; /* flex-wrap instead of flex-direction: column for bigger screens */
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.post:visited {
+    text-decoration: none;
+}

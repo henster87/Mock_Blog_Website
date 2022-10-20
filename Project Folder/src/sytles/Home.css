@@ -1,0 +1,81 @@
+.homePage {
+    margin-top: 4.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.youtubeVideo {
+    width: 85vw;
+    max-width: 40rem;
+    aspect-ratio: 16 / 9; /* Set the aspect ratio to 16:9 */
+    border-radius: 15px;
+
+    margin-bottom: 1.6rem;
+}
+
+/*Make the div span the width of the screen and center the contents*/
+.homeTitleContainer {
+    background-color: var(--accentColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*Set the background color and spacing for the text area*/
+.homeTextDiv {
+    background-color: var(--primary);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    border-radius: 5px;
+}
+
+/*Change the font size and set the font family*/
+.homeTextDiv p {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    word-spacing: 0rem;
+    margin-bottom: 1rem;
+
+}
+
+/*Make the first letter of the paragraph bigger and bolder*/
+.homeFirstText::first-letter {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+strong {
+    color: rgb(165, 45, 45);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/*Remove the text-align justify for mobile devices or smaller screens*/
+@media screen and (max-width: 640px) {
+    .homeTextDiv p {
+        text-align: left;
+    }
+}
+

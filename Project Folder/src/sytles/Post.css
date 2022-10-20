@@ -1,0 +1,151 @@
+/*Align all the content inside the post div to the center*/
+.post {
+    background-color: var(--primary); /*#a0b9d680*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    width: 35rem;
+
+    border-radius: 10px;
+    outline: 5px solid var(--outlineColor);
+    
+}
+
+.postImg {
+    height: auto;
+    max-width: 30rem;
+    
+    margin: 1rem;
+
+    border-radius: 15px;
+
+    outline: 5px solid var(--imgOutlineColor);
+    cursor: pointer;
+}
+
+.postImg:hover {
+    outline: 5px dashed var(--accentColor);
+}
+
+.postExtras span {
+    color:  rgb(0, 0, 0);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-family: serif;
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+
+    font-size: 0.75rem;
+    line-height: 0.5rem;
+
+    cursor: pointer;
+
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Helvetica, Arial,  sans-serif; 
+    text-align: center;
+    font-family: serif;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.postTitle {
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    cursor: pointer;
+}
+
+.postDate {
+    color: var(--secondary);
+
+    font-style: italic;
+
+    font-size: 0.95rem;
+
+    cursor: pointer;
+}
+
+/* limit the amount of lines that can be seen in the description */
+.postDesc {
+    color: black;
+    font-family: serif;
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    -webkit-line-clamp: 3;
+
+    margin-left: min(3rem, 2.5vw);
+    margin-right: min(3rem, 2.5vw);
+    margin-top: 0.6rem;
+
+    cursor: pointer;
+}
+
+.postTitle, .postDesc :visited {
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+    
+    .postImg {
+        width: 70vw;
+        height: 25rem;
+        max-width: 30rem;
+        aspect-ratio: 4 / 5;
+    }
+
+    /* limit the maximum size of the div that includes the text and the image */
+    .posts {
+        max-width: 45rem;
+
+        margin-top: 4rem;
+    }
+
+    .blogLink .post {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .postImg {
+        width: 70vw;
+        height: max(30vh, 10rem);
+        max-height: 15rem;
+    }
+
+    .post {
+        margin-bottom: 1rem;
+    }
+
+}

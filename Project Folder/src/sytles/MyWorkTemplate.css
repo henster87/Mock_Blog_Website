@@ -1,0 +1,92 @@
+/* Set the image container to the center */
+.imageSliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    height: 100vh;
+}
+
+.imageSrc {
+    width: auto;
+    height: auto;
+    max-width: 85vw;
+    max-height: 85vh; /* limit the maximum size of an image */
+
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    border-radius: 10px;
+}
+
+/* place the arrows in the middle of the screen vertically */
+div .arrowContainer *{
+    color: var(--accentColor);
+    position: absolute;
+    top: 50%;
+
+    font-size: 3rem;
+
+    z-index: 99;
+    cursor: pointer;
+
+}
+
+.rightArrow {
+    right: min(15vw, 5rem);
+    z-index: 99;
+
+}
+
+.leftArrow {
+    left: min(15vw, 5rem);
+    z-index: 99;
+
+}
+
+.leftArrow :hover, .rightArrow :hover {
+    color: var(--activeColor);
+}
+
+/* Set the non-active images opacity to 0 and fade out*/
+.image {
+    opacity: 0;
+    transition: 2s ease;
+}
+
+/* Set the active images opacity to 1 and fade in */
+.image.active {
+    opacity: 1;
+    transition: 2.5s ease;
+}
+
+@media screen and (max-width: 1020px) {
+
+
+    .imageSliderContainer {
+        height: 75vh;
+    }
+
+    .imageSrc {
+        height: auto;
+        margin-top: 2rem;
+        max-height: 60vh;
+    }
+
+    /* place the arrows at the bottom of the screen */
+    div .arrowContainer *{
+        margin-top: 2rem;
+        top: min(170vw, 70vh);
+        font-size: 3rem;
+    }
+    
+    .rightArrow {
+        right: 20vw;
+    }
+    
+    .leftArrow {
+        left: 20vw;
+    }
+}
